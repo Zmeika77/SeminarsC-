@@ -9,13 +9,10 @@ FillArrayRandomNumbers(numbers);
 Console.WriteLine("Массив: ");
 PrintArray(numbers);
 int count = 0;
-
 for (int z = 0; z < numbers.Length; z++)
 if (numbers[] % 2 == 0)
 count++;
-
 Console.WriteLine($"всего  {numbers.Length"} чисел, {count} из них четные");
-
 void FillArrayRandomNumbers(int[] numbers)
 {
     for(int i = 0; i < numbers.length; i++)
@@ -44,9 +41,7 @@ FillArrayRandomNumbers(numbers);
 Console.WriteLine("Массив: ");
 PrintArray(numbers);
 int sum = 0;
-
 Console.WriteLine($"Всего {numbers.Length} чисел, сумма элементов на нечетных позициях = {sum}");
-
 void FillArrayRandomNumbers(int[] numbers)
 {
     for(int i = 0; i < numbers.Length; i++)
@@ -67,7 +62,7 @@ void PrintArray(int[] numbers)
 //Задача 38: Задайте массив вещественных чисел. 
 //Найдите разницу между максимальным и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
-Console.WriteLine("Введите размер массива");
+/*Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] numbers = new double[size];
 FillArrayRandomNumbers(numbers);
@@ -104,5 +99,4 @@ void PrintArray(double[] numbers)
     }
     Console.Write("]");
     Console.WriteLine();
-}
-
+}*/
